@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Batroun Hotels</title>
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="menu-toggle" hidden />
+        <header class="header">
+            <div class="logo">HotelNest</div>
+            <div class="header-right">
+                <a href="signup.html"><i class="fa-solid fa-user user-icon"></i></a>
+                <label for="menu-toggle" class="menu-icon">
+                <span></span><span></span><span></span>
+                </label>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batroun.html">Batroun Hotels</a></li>
+                <li><a href="byblos.html">Byblos Hotels</a></li>
+                <li><a href="beirut.html">Beirut Hotels</a></li>
+                <li><a href="tyre.html">Tyre Hotels</a></li>
+                <li><a href="contact.html">Contact Customer Service</a></li>
+            </ul>
+        </nav>
+        <label for="menu-toggle" class="overlay"></label>
+        <section class="available-hotels">
+            <h2>Available Hotels in Batroun</h2>
+            <div class="hotel-cards">
+            <div class="hotel-card">
+                <img src="images/bebatroun.jpg" alt="Be Batroun">
+                <h3>Be Batroun</h3>
+                <p class="location">Ghlayghili street, Batroun</p>
+                <p class="price">From <span>$200/night</span></p>
+                <p class="rating">Rating: <span>4.8/5</span></p>
+                <p class="features">Pool • Fine Dining • Sea View</p>
+                <p class="description">Experience luxury at its finest in the heart of Batroun</p>
+                <button><a href="hotels/bebatroun.html">View Details</a></button>
+            </div>
+            <div class="hotel-card">
+                <img src="images/batrounvclub.jpg" alt="Batroun Village Club">
+                <h3>Batroun Village Club</h3>
+                <p class="location">Batroun</p>
+                <p class="price">From <span>$150/night</span></p>
+                <p class="rating">Rating: <span>4.5/5</span></p>
+                <p class="features">Private Beach • Pool • Restaurant • Water Sports • Bar</p>
+                <p class="description">Your perfect beach getaway in beautiful Batroun</p>
+                <button><a href="hotels/batrounvclub.html">View Details</a></button>
+            </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

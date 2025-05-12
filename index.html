@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelNest</title>
+      <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="menu-toggle" hidden />
+        <header class="header">
+            <div class="logo">HotelNest</div>
+            <div class="header-right">
+                <a href="signup.html"><i class="fa-solid fa-user user-icon"></i></a>
+                <label for="menu-toggle" class="menu-icon">
+                <span></span><span></span><span></span>
+                </label>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batroun.html">Batroun Hotels</a></li>
+                <li><a href="byblos.html">Byblos Hotels</a></li>
+                <li><a href="beirut.html">Beirut Hotels</a></li>
+                <li><a href="tyre.html">Tyre Hotels</a></li>
+                <li><a href="contact.html">Contact Customer Service</a></li>
+            </ul>
+        </nav>
+        <label for="menu-toggle" class="overlay"></label>
+        <section class="firsts">
+            <div class="firsts-content">
+                <h1>Discover Your Perfect Stay in Lebanon</h1>
+                <p>Explore the best hotels across Lebanon's most beautiful cities</p>
+                <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Search a city or hotel or page" />
+                <button onclick="searchRedirect()"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="seconds">
+            <div class="seconds-content">
+                <h1>Popular Destinations</h1>
+                <div class="destsgrid">
+                    <div class="destcard">
+                        <img class="dest" src="images/batroun.jpg" alt="Batroun">
+                        <div class="dest-info">
+                            <h3>Batroun</h3>
+                            <p>Coastal beauty</p>
+                        </div>
+                    </div>
+                    <div class="destcard">
+                        <img class="dest" src="images/byblos.jpg" alt="Byblos">
+                        <div class="dest-info">
+                            <h3>Byblos</h3>
+                            <p>Historic charm</p>
+                        </div>
+                    </div>
+                    <div class="destcard">
+                        <img class="dest" src="images/beirut.jpg" alt="Beirut">
+                        <div class="dest-info">
+                            <h3>Beirut</h3>
+                            <p>The vibrant capital</p>
+                        </div>
+                    </div>
+                    <div class="destcard">
+                        <img class="dest" src="images/tyre.jpg" alt="Tyre">
+                        <div class="dest-info">
+                            <h3>Tyre</h3>
+                            <p>Ancient wonders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <p>&copy; 2025 HotelNest. All rights reserved.</p>
+            <p>Powered by <a href="https://instagram.com/zein.hmedeh" target="_blank">Zein Hmadeh</a></p>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

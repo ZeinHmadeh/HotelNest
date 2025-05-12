@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Beirut Hotels</title>
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="menu-toggle" hidden />
+        <header class="header">
+            <div class="logo">HotelNest</div>
+            <div class="header-right">
+                <a href="signup.html"><i class="fa-solid fa-user user-icon"></i></a>
+                <label for="menu-toggle" class="menu-icon">
+                <span></span><span></span><span></span>
+                </label>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batroun.html">Batroun Hotels</a></li>
+                <li><a href="byblos.html">Byblos Hotels</a></li>
+                <li><a href="beirut.html">Beirut Hotels</a></li>
+                <li><a href="tyre.html">Tyre Hotels</a></li>
+                <li><a href="contact.html">Contact Customer Service</a></li>
+            </ul>
+        </nav>
+        <label for="menu-toggle" class="overlay"></label>
+        <section class="available-hotels">
+            <h2>Available Hotels in Beirut</h2>
+            <div class="hotel-cards">
+            <div class="hotel-card">
+                <img src="images/raouchearjaan.jpg" alt="Raouché Arjaan by Rotana">
+                <h3>Raouché Arjaan by Rotana</h3>
+                <p class="location">Chouran Street, Raouché, Beirut</p>
+                <p class="price">From <span>$103/night</span></p>
+                <p class="rating">Rating: <span>4.6/5</span></p>
+                <p class="features">Rooftop Pool • Sea View Suites • Fitness Center</p>
+                <p class="description">Modern 4-star hotel overlooking Pigeon Rocks</p>
+                <button><a href="hotels/raouchearjaan.html">View Details</a></button>
+            </div>
+            <div class="hotel-card">
+                <img src="images/lancaster.jpg" alt="Lancaster Hotel Raouché">
+                <h3>Lancaster Hotel Raouché</h3>
+                <p class="location">Australia Street, Raouché, Beirut</p>
+                <p class="price">From <span>$77/night</span></p>
+                <p class="rating">Rating: <span>4.6/5</span></p>
+                <p class="features">Free Airport Shuttle • Spa & Sauna • 2 Restaurants</p>
+                <p class="description">Boutique hotel steps from the Corniche and Pigeon Rocks</p>
+                <button><a href="hotels/lancaster.html">View Details</a></button>
+            </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

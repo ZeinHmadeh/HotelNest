@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact Customer Service</title>
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="menu-toggle" hidden />
+        <header class="header">
+            <div class="logo">HotelNest</div>
+            <div class="header-right">
+                <a href="signup.html"><i class="fa-solid fa-user user-icon"></i></a>
+                <label for="menu-toggle" class="menu-icon">
+                <span></span><span></span><span></span>
+                </label>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batroun.html">Batroun Hotels</a></li>
+                <li><a href="byblos.html">Byblos Hotels</a></li>
+                <li><a href="beirut.html">Beirut Hotels</a></li>
+                <li><a href="tyre.html">Tyre Hotels</a></li>
+                <li><a href="contact.html">Contact Customer Service</a></li>
+            </ul>
+        </nav>
+        <label for="menu-toggle" class="overlay"></label>
+        <div class="contact-container">
+            <h1>Contact Customer Service</h1>
+            <p>If you have any questions or need help, fill out the form below and we'll get back to you shortly.</p>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit" onclick="msgsent()">Send Message</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
